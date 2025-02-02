@@ -16,7 +16,6 @@ body {
     font-family: Arial, sans-serif;
     color: white;
     overflow: hidden;
-    overflow-x: hidden;
 }
 .container {
     position: relative;
@@ -34,15 +33,15 @@ body {
 }
 .tape {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 40px;
     background: yellow;
     color: black;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    left: 0;
-    transform: rotate(-10deg);
+    left: 50%;
+    transform: translateX(-50%) rotate(-10deg);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     white-space: nowrap;
     border-top: 5px solid transparent;
@@ -65,18 +64,17 @@ body {
   ) 10;
 }
 .tape:nth-child(2) {
-    transform: rotate(10deg);
+    transform: translateX(-50%) rotate(10deg);
 }
 .tape:nth-child(3) {
-    top: auto;
-    bottom: 0;
-    transform: rotate(-5deg);
+    top: 90%;
+    transform: translateX(-50%) rotate(-5deg);
     background-image: repeating-linear-gradient(
         45deg,
         yellow 0px, yellow 10px,
         black 10px, black 20px
     );
-    border: none;
+    border:none
 }
 .message {
     margin-top: 300px;
