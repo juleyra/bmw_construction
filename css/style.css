@@ -30,7 +30,7 @@ body {
 .highlight {
     color: #C12C2C;
 }
-.tape, tape2 {
+.tape {
     position: absolute;
     bottom: 120px;
     z-index: 1;
@@ -45,8 +45,6 @@ body {
     transform: translateX(-50%) rotate(-10deg);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     white-space: nowrap;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
