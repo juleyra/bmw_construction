@@ -24,12 +24,19 @@ html {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'PoiretOne';
+    src: url('../fonts/PoiretOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    background: url('../img/background.png') no-repeat center center;
+    background: url('../img/background.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -102,8 +109,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'CodaRegular', Arial, sans-serif;
-    font-size: 30px;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
 }
 
 .message span {
@@ -112,7 +120,7 @@ body {
 }
 
 .message span:nth-child(1) {
-    font-size: 25px;
+    /*font-size: 25px;*/
 }
 
 .logo img {
