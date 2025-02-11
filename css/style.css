@@ -13,7 +13,6 @@ body {
 html {
     height: 100%;
     position: relative;
-    /*overflow-y: scroll;*/
     overflow-y: hidden;
 }
 
@@ -113,14 +112,13 @@ body {
     font-weight: lighter;
     font-size: 25px;
 }
+.sm {
+    font-size: 13px;
+}
 
 .message span {
     display: block;
     margin: 5px 0;
-}
-
-.message span:nth-child(1) {
-    /*font-size: 25px;*/
 }
 
 .logo img {
@@ -151,6 +149,10 @@ body {
         font-size: 16px;
     }
 
+    .sm {
+        font-size: 8px;
+    }
+
     .tape:nth-child(2) {
 
         margin-top: -40px;
@@ -165,7 +167,6 @@ body {
     body {
         height: 100%;
         position: relative;
-        /*overflow-y: scroll;*/
         overflow-y: hidden;
     }
 
